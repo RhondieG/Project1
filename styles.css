@@ -1,0 +1,48 @@
+html
+{
+    margin:0;
+    padding: 0;
+}
+
+body 
+{
+    margin:0;
+    padding: 0;
+}
+
+header
+{
+    background-color: green;
+    height: 225px;
+    line-height:225px ;
+}
+
+ul{
+    list-style: none; 
+}
+
+ul li
+{
+    display:inline-block;
+}
+header nav
+{
+    float: right;
+}
+.logo img
+{
+    margin-top: 30px;
+}
+header nav ul li a
+{
+    padding-right: 30px;
+    font-weight: bold;
+    color: darkslategrey;
+    transition: all 0.5s ease-in;
+}
+
+header nav ul li a:hover
+{
+    text-decoration: none;
+    color:white;
+}
